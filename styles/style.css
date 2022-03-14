@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.secondPage {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  -webkit-filter: none;
+          filter: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secondPage .frontText2 {
+  margin-top: 200px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secondPage .frontText2 h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.secondPage .frontText2 h2 {
+  width: 700px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.secondPage .boxPath {
+  margin-bottom: 60px;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(250, 235, 215, 0.705);
+  -webkit-clip-path: polygon(0 50%, 100% 0, 100% 50%, 0% 100%);
+          clip-path: polygon(0 50%, 100% 0, 100% 50%, 0% 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.781) 0px 54px 55px, rgba(0, 0, 0, 0.733) 0px -12px 30px, rgba(0, 0, 0, 0.705) 0px 4px 6px, rgba(0, 0, 0, 0.801) 0px 12px 13px, rgba(0, 0, 0, 0.808) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.781) 0px 54px 55px, rgba(0, 0, 0, 0.733) 0px -12px 30px, rgba(0, 0, 0, 0.705) 0px 4px 6px, rgba(0, 0, 0, 0.801) 0px 12px 13px, rgba(0, 0, 0, 0.808) 0px -3px 5px;
+}
+
+.secondPage .boxPath img {
+  margin-top: -300px;
+  width: 100%;
+  height: 100vh;
+  -webkit-filter: brightness(0.4);
+          filter: brightness(0.4);
+}
+
+.secondPage .teamText {
+  padding-top: 20px;
+  font-size: 80px;
+  font-weight: 900;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.teamBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  margin-top: 300px;
+}
+
+.circleImg {
+  margin-top: 135px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  padding: 30px;
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: rgba(85, 84, 84, 0.205) 0px 1px 2px, rgba(236, 232, 232, 0.07) 0px 2px 4px, rgba(209, 203, 203, 0.07) 0px 4px 8px, rgba(204, 200, 200, 0.07) 0px 8px 16px, rgba(156, 152, 152, 0.07) 0px 16px 32px, rgba(141, 138, 138, 0.07) 0px 32px 64px;
+          box-shadow: rgba(85, 84, 84, 0.205) 0px 1px 2px, rgba(236, 232, 232, 0.07) 0px 2px 4px, rgba(209, 203, 203, 0.07) 0px 4px 8px, rgba(204, 200, 200, 0.07) 0px 8px 16px, rgba(156, 152, 152, 0.07) 0px 16px 32px, rgba(141, 138, 138, 0.07) 0px 32px 64px;
+}
+
+.nameTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nameTeam h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.thirdPage {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.thirdPage .boxPathPageThree {
+  display: block;
+  margin-top: -420px;
+  position: relative;
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(45deg, #01080a, #01080a, rgba(1, 8, 10, 0.418));
+  -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+          clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+}
+
+.thirdPage h1 {
+  display: block;
+  position: absolute;
+  top: -245px;
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  position: relative;
+}
+
+.thirdPage h2 {
+  display: block;
+  position: absolute;
+  top: -220px;
+  width: 900px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  position: relative;
+}
+
+.twoPhotoBox {
+  margin-top: 250px;
+  position: relative;
+  position: absolute;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.twoPhotoBox .photoBox00 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.twoPhotoBox .photoBox00 img {
+  margin: -35px;
+  width: 430px;
+  height: 400px;
+  -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+          clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    display: none;
+  }
+  html {
+    background-color: black;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.firstPage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.firstPage img {
+  position: fixed;
+  width: auto;
+  margin-top: -1100px;
+  z-index: -99;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+
+.centerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 250px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.centerText h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FAD961), to(#F76B1C));
+  background-image: linear-gradient(180deg, #FAD961 0%, #F76B1C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.centerText h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.centerText h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+header {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.014);
+  -webkit-box-shadow: rgba(54, 54, 54, 0.541) 0px 20px 30px -10px;
+          box-shadow: rgba(54, 54, 54, 0.541) 0px 20px 30px -10px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 200;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav ul:hover {
+  color: #ca7900;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav ul i {
+  font-size: 50px;
+  padding: 50px;
+  cursor: pointer;
+}
+
+.navText {
+  text-decoration: none;
+}
+
+.imagesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 40%;
+}
+
+.imagesBox .imgPath {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  position: relative;
+  margin-top: 0px;
+  width: 460px;
+  height: 390px;
+  z-index: 0;
+  margin-left: -40px;
+  margin-right: -40px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.imagesBox .imgPath:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+}
+
+.btnScrollDown1 a {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  background: #ca7900;
+  border-radius: 20px;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.btnScrollDown1 a:hover {
+  background: transparent;
+}
+/*# sourceMappingURL=style.css.map */
